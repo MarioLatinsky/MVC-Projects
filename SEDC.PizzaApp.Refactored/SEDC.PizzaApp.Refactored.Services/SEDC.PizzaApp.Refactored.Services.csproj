@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.19">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.PizzaApp.Refactored.DataAccess\SEDC.PizzaApp.Refactored.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.PizzaApp.Refactored.Mappers\SEDC.PizzaApp.Refactored.Mappers.csproj" />
+    <ProjectReference Include="..\SEDC.PizzaApp.Refactored.ViewModels\SEDC.PizzaApp.Refactored.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
